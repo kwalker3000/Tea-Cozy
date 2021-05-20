@@ -1,0 +1,136 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    
+}
+
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 2.2rem;
+    color: seashell;
+    opacity: 0.9;
+}
+header {
+    background-color: orange;
+}
+
+
+nav {
+    background-color: blue;
+    /* border: 9px solid orange; */
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    /* margin: 0; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+ul {
+    display: flex;
+    list-style: none;
+    text-decoration: underline;
+    margin-right: 10px;
+    align-items: space-between;
+    /* justify-content: flex-end; */
+}
+
+li {
+    margin-left: 30px;
+}
+
+/* main {
+    display: flex;
+    justify-content: center;
+} */
+
+.top {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 200px; */
+    /* align-items: center;
+    align-content: center; */
+
+}
+
+main {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; */
+}
+
+
+.banner {
+    display: block;
+    height: 700px;
+    width: 1200px;
+    background: url("/home/kwalker/Dev/Projects/Tea-cozy/Resources/Images/mission-background.webp");
+    background-size: cover;
+    /* z-index: 10; */
+    border: 1px solid red;
+    /* margin-top: 200px; */
+    /* height: 100%;
+    width: 100%; */
+    /* position: relative; */
+    /* top: 59px; */
+}
+
+.banner-tag {
+    background-color: black;
+    margin-top: 297px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-tag p {
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 2.4rem; /*  h2  */
+    border: 1px solid red;
+    margin-bottom: -.75px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.logo {
+    height: 50px;
+}
+
+/* .test {
+    display: flex;
+    align-self: center;
+} */
+/* 
+nav ul li .test { float: left; }
+
+nav ul li { 
+  list-style:none;
+  margin:10px;
+  float: right; 
+} */
+
+.test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: -30px;
+    margin-top: -12px;
+}
+
+/* .right-nav {
+    flex-direction: row;
+} */
