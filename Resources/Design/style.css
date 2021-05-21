@@ -16,10 +16,21 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
-header {
-    background-color: orange;
+
+/* .logo {
+    display: none;
 }
 
+@media screen and (max-device-width: 420px) {
+
+    .logo {
+        display: block;
+    }
+
+    .ul {
+        display: none;
+    }
+} */
 
 nav {
     background-color: blue;
@@ -38,8 +49,31 @@ ul {
     align-items: space-between;
 }
 
+@media screen and (max-device-width: 720px) {
+    ul {
+        font-size: 1.6rem;
+    }
+
+    li {
+        font-size: 1.6rem;
+    }
+}
+
 li {
     margin-left: 30px;
+}
+
+@media screen and (max-device-width: 420px) {
+    
+    .mobile-li {
+        display: none;
+    }
+
+    /* .test {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    } */
 }
 
 .top {
@@ -101,6 +135,13 @@ img {
     margin-top: -12px;
 }
 
+@media screen and (max-device-width: 420px) {
+    
+    .test {
+        margin: -5px auto;
+    }
+}
+
 .bottom {
     display: flex;
     justify-content: center;
@@ -116,7 +157,7 @@ img {
     background-repeat: no-repeat;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */    /* must be above 1010px */
 
 }
 
@@ -124,6 +165,7 @@ img {
     display:flex;
     flex-direction: row;
 }
+
 
 .locations {
     background-color: black;
@@ -142,6 +184,88 @@ img {
     margin-left: 40px;
     margin-right: 40px
 }
+
+@media screen and (max-device-width: 1010px) {
+
+    /* .bottom {
+        display: block;
+    } */
+
+    .locations-block {
+        justify-content: space-around;
+        flex-flow: row wrap;
+        align-items: space-around;
+        align-content: space-around;
+
+    }
+
+    .locations {
+        height: 250px;
+        width: 250px;
+    }
+
+    .locations p {
+        font-size: 1.6rem;
+    }
+
+    .locations h3 {
+        font-size: 2rem;
+    }
+
+    .east {
+        margin-left: 20px;
+        margin-right: 20px
+    }
+
+    .locations-background h2 {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-device-width: 810px) {
+
+    /* .bottom {
+        display: block;
+    } */
+
+    .locations-block {
+        justify-content: space-around;
+        flex-flow: row wrap;
+        align-items: space-around;
+        align-content: space-around;
+
+    }
+
+    .locations {
+        height: 200px;
+        width: 200px;
+    }
+
+    .locations p {
+        font-size: 1.4rem;
+    }
+
+    .locations h3 {
+        font-size: 1.6rem;
+    }
+
+    .east {
+        margin-left: 10px;
+        margin-right: 10px
+    }
+
+    .locations-background h2 {
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-device-width: 640px) {
+
+    .locations-block {
+        display: none;
+    }
+}
+
 
 footer {
     text-align: center;
