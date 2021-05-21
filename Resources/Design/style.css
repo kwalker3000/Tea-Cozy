@@ -82,7 +82,7 @@ main {
 
 .banner-tag {
     background-color: black;
-    margin-top: 297px;
+    margin-top: 295px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -90,14 +90,23 @@ main {
     text-align: center;
 }
 
-.banner-tag p {
-    font-size: 1.6rem;
-}
 
 h1 {
-    font-size: 2.4rem; /*  h2  */
+    font-size: 3.3rem; /*  h2  */
     border: 1px solid red;
     margin-bottom: -.75px;
+}
+
+
+.mid {
+    text-align: center;
+}
+
+.tea-month {
+    display: inline-flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 img {
