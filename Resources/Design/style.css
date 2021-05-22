@@ -90,10 +90,23 @@ li {
     background-size: cover;
 }
 
+@media screen and (max-device-width: 420px) {
+    .banner {
+        width: 100vh;
+        height: 75vh;
+    }
+}
+
 .banner-tag {
     background-color: black;
     margin-top: 300px;
     text-align: center;
+}
+
+@media screen and (max-device-width: 420px) {
+    .banner-tag {
+        margin-top: 250px;
+    }
 }
 
 .banner-tag p {
@@ -261,9 +274,42 @@ img {
 
 @media screen and (max-device-width: 640px) {
 
-    .locations-block {
-        display: none;
+    /* .locations-block {
+        display: block;
+    } */
+
+    .locations-background h2 {
+        margin-top: 10px;
+        margin-bottom: 7px;
     }
+
+    .locations {
+        width: 200%;
+        margin-bottom: -17.5%;
+    }
+
+    .east {
+        margin: 0;
+        margin-bottom: -17.5%;
+    }
+
+    .locations p {
+        line-height: -25px;
+    }
+
+    .locations p {
+        font-size: 1.1rem;
+    }
+
+    .locations h3 {
+        font-size: 1.6rem;
+        text-decoration: underline;
+    }
+
+    /* .locations-mobile {
+        width: 75%;
+        height: 65%;
+    } */
 }
 
 
