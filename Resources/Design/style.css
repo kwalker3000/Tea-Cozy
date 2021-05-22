@@ -24,7 +24,7 @@ body {
 }
 
 nav {
-    background-color: blue;
+    background-color: black;
     border-bottom: 1px solid seashell;
     height: 68px;
     position: fixed;
@@ -32,6 +32,9 @@ nav {
     left: 0;
     width: 100%;
 }
+
+a, a:hover, a:active, a:visited { color: white; }
+
 ul {
     display: flex;
     list-style: none;
