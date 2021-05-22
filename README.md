@@ -27,7 +27,7 @@ bonus challenge: Make it responsive
 
 ### Screenshot
 
-[Live link] (<https://kwalker3000.github.io/Tea-Cozy/>)
+[Live link](https://kwalker3000.github.io/Tea-Cozy/)
 
 ## My process
 
