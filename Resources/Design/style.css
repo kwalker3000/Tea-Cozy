@@ -17,7 +17,7 @@ body {
     margin-right: 10px;
 }
 
-@media screen and (max-device-width: 420px) {
+@media screen and (max-width: 420px) {
     body {
         font-size: 1.8rem;
     }
@@ -43,7 +43,7 @@ ul {
     align-items: space-between;
 }
 
-@media screen and (max-device-width: 720px) {
+@media screen and (max-width: 720px) {
     ul {
         font-size: 1.6rem;
     }
@@ -57,7 +57,7 @@ li {
     margin-left: 30px;
 }
 
-@media screen and (max-device-width: 420px) {
+@media screen and (max-width: 420px) {
     
     .mobile-li {
         display: none;
@@ -78,7 +78,7 @@ li {
     background-size: cover;
 }
 
-@media screen and (max-device-width: 420px) {
+@media screen and (max-width: 420px) {
     .banner {
         width: 100vh;
         height: 75vh;
@@ -91,7 +91,7 @@ li {
     text-align: center;
 }
 
-@media screen and (max-device-width: 420px) {
+@media screen and (max-width: 420px) {
     .banner-tag {
         margin-top: 250px;
     }
@@ -136,7 +136,7 @@ img {
     margin-top: -12px;
 }
 
-@media screen and (max-device-width: 420px) {
+@media screen and (max-width: 420px) {
     
     .test {
         margin: -5px auto;
@@ -185,7 +185,7 @@ img {
     margin-right: 40px
 }
 
-@media screen and (max-device-width: 1010px) {
+@media screen and (max-width: 1010px) {
 
     .locations-block {
         justify-content: space-around;
@@ -218,7 +218,7 @@ img {
     }
 }
 
-@media screen and (max-device-width: 810px) {
+@media screen and (max-width: 810px) {
 
     .locations-block {
         justify-content: space-around;
@@ -251,7 +251,7 @@ img {
     }
 }
 
-@media screen and (max-device-width: 640px) {
+@media screen and (max-width: 640px) {
 
     .locations-background h2 {
         margin-top: 10px;
